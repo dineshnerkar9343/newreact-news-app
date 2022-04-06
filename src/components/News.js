@@ -80,6 +80,7 @@ async componentDidMount(){
                   description={element.description?element.description:" "}
                   imageUrl={element.urlToImage?element.urlToImage:"https://media.defense.gov/2021/Sep/30/2002865254/1280/1280/0/210930-D-EX074-055.JPG"} 
                   newsUrl={element.url}
+                  auther={element.author?element.author:"Aryabhat"}
                 />
                 </div>
             })}
